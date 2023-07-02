@@ -1,0 +1,123 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#calculator-container{
+    width: 300px;
+    height: 350px;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 4px 4px grey;
+}
+
+.output{
+    border-radius: 10px;
+    box-shadow: inset -4px 4px 5px grey;
+    font-size: 28px;
+    height: 26px;
+    margin: 10px;
+    padding: 12px;
+    text-align: right;
+    background-color: white;
+    overflow: hidden;
+}
+
+.operator[disabled]{
+    background-color: rgb(239,239,239);
+    color: black;
+}
+
+#display{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.keys-container{
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+.operators button{
+    border-radius: 10px;
+    box-shadow: 2px 4px 1px grey;
+    border: none;
+    height: 25px;
+    width: 50px;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    gap: 18px;
+}
+
+.numkeys{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.row2 button{
+    border-radius: 10px;
+    box-shadow: 2px 4px 1px grey;
+    border: none;
+    height: 25px;
+    width: 50px;
+}
+
+.row3 button{
+    border-radius: 10px;
+    box-shadow: 2px 4px 1px grey;
+    border: none;
+    height: 25px;
+    width: 50px;
+}
+
+.row4 button{
+    border-radius: 10px;
+    box-shadow: 2px 4px 1px grey;
+    border: none;
+    height: 25px;
+    width: 50px;
+}
+
+.row5 button{
+    border-radius: 10px;
+    box-shadow: 2px 4px 1px grey;
+    border: none;
+    height: 25px;
+    width: 50px;
+}
+
+.equals button{
+    border-radius: 10px;
+    box-shadow: 4px 4px 1px grey;
+    border: none;
+    height: 130px;
+    width: 50px;
+}
+
+.equals{
+    flex: 1;
+    margin-top: 5px;
+}
+
+.row2, .row3, .row4, .row5{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    gap: 18px;
+    margin-left: 23px;
+}
+
+
+
